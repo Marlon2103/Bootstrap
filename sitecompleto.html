@@ -17,13 +17,13 @@
         }
     </style>
 
-    <title>Hello, world!</title>
+    <title>Página de testes</title>
 </head>
 
-<body>
+<body class="body bg-dark">
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-        <a class="navbar-brand" href="#">Studio Sos</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary ">
+        <a class="navbar-brand text-light" href="#">Studio Sos</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -59,15 +59,15 @@
     </nav>
     <!--Nav Bar-->
     <!--Carrousel-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide mt-3 " data-ride="carousel">
         <ol class="carousel-indicators ">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner mt-1 ">
+        <div class="carousel-inner  ">
             <div class="carousel-item active">
-                <img class="d-block w-100 " src="imagens projecyt/WhatsApp Image 2022-02-14 at 12.27.58.jpeg"
+                <img class="d-block w-100" src="imagens projecyt/WhatsApp Image 2022-02-14 at 12.27.58.jpeg"
                     alt="First slide">
             </div>
             <div class="carousel-item">
@@ -90,7 +90,7 @@
     </div>
     <!--Carrousel-->
     <!--Jumbo-->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid bg-secondary text-center text-light">
         <div class="container">
             <h1 class="display-4">Nossa Meta é Te Transformar</h1>
             <p class="lead">Nossa empresa está desde 2014 mudando vidas.</p>
@@ -124,12 +124,10 @@
                 </blockquote>
             </div>
             <div class="card">
-                <img class="card-img-top" src="imagens projecyt/WhatsApp Image 2022-02-14 at 14.07.11.jpeg" alt="Card image cap">
-                <div class="card-body">
-                   
-                    
-                    
-                </div>
+                <img class="card-img-top" src="imagens projecyt/WhatsApp Image 2022-02-14 at 14.07.11.jpeg"
+                    alt="Card image cap">
+
+
             </div>
             <div class="card bg-primary text-white text-center p-3">
                 <blockquote class="blockquote mb-0">
@@ -142,20 +140,22 @@
                 </blockquote>
             </div>
             <div class="card text-center">
-               
+
             </div>
             <div class="card">
-               
+
             </div>
             <div class="card p-3 text-right">
                 <h5 class="card-title">Novidades</h5>
                 <blockquote class="blockquote mb-0">
                     <p>Shadow: sombra
                         Line: linha, traço
-                        
-                        É esse casamento perfeito que vira essa técnica mais pedida e feita aqui no Studio. Umas mais sutis, outras mais marcadas, cada uma com suas características.
-                        Sabe aquele dúvida entre uma sobrancelha natural e marcada? Pois então a Shadow line foi feita pra isso 🤪
-                        </p>
+
+                        É esse casamento perfeito que vira essa técnica mais pedida e feita aqui no Studio. Umas mais
+                        sutis, outras mais marcadas, cada uma com suas características.
+                        Sabe aquele dúvida entre uma sobrancelha natural e marcada? Pois então a Shadow line foi feita
+                        pra isso 🤪
+                    </p>
                     <footer class="blockquote-footer">
                         <small class="text-muted">
                             Someone famous in <cite title="Source Title">Source Title</cite>
@@ -166,7 +166,8 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Sonhe</h5>
-                    <p class="card-text">Não passe sua vida toda vivendo e admirando os sonhos dos outros… VÁ CORRER ATRÁS DOS SEUS!.</p>
+                    <p class="card-text">Não passe sua vida toda vivendo e admirando os sonhos dos outros… VÁ CORRER
+                        ATRÁS DOS SEUS!.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
@@ -175,10 +176,11 @@
 
         <!--Cards-->
         <!--Texto e Video-->
-        <div class="row mt-5 mb-5">
+        <div class="row mt-5 mb-5 text-light">
             <div class="col-md-6">
                 <h3>Dicas</h3>
-                <p>Escovar a sua sobrancelha até trés vezes ao dia, vai ajudar o crescimento dos pêlos, passar minoxidil ao se deitar
+                <p>Escovar a sua sobrancelha até trés vezes ao dia, vai ajudar o crescimento dos pêlos, passar minoxidil
+                    ao se deitar
                     retirando ele no outro dia na parte da manhã, auxilia o crescimento juntanmente com o penteado.
                 </p>
             </div>
@@ -191,22 +193,71 @@
         </div>
 
         <!--Texto e Video-->
+        <!-- formulario -->
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="text-center text-light">
+                    Entre em contato com a gente!!
+                </h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group text-light">
+                        <label for="exampleFormControlInput1 ">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
 
+
+                    <div class="form-group text-light">
+                        <label for="exampleFormControlTextarea1">Assunto</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 mt-4">
+                <iframe class="w-100"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.5036468145604!2d-46.43569338601942!3d-23.657940384635012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6eb1952784e5%3A0xe7e9ad46b0b631b3!2sR.%20Manoel%20Bandeira%2C%20586%20-%20Jardim%20Miranda%20D&#39;Aviz%2C%20Mau%C3%A1%20-%20SP%2C%2009330-500!5e0!3m2!1spt-BR!2sbr!4v1644929067883!5m2!1spt-BR!2sbr"
+                    width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        
+            
+       
+        <!-- formulario -->
+        <!-- rodapé -->
         <footer>
+            <div class="row mt-5">
+                <div class="col-md-12 d-flex justify-content-center ">
 
-            <div class="container md-50 ">
-                <a href="https://www.instagram.com/macieldeveloper/" target="_blank" class="p-3">
-                    <img class="rede-social" src="imagens projecyt/instagram.png" alt="Logo do instagram">
-                </a>
-                <a href="https://www.linkedin.com/in/marlon-maciel-b87b3a207/" target="_blank" class="p-3">
-                    <img class="rede-social" src="imagens projecyt/linkedin.png" alt="Logo do linkedin">
-                </a>
+                    <a href="https://www.instagram.com/sos_sobrancelha_mauasp/" target="_blank" class="p-3">
+                        <img class="rede-social" src="imagens projecyt/instagram.png" alt="Logo do instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/marlon-maciel-b87b3a207/" target="_blank" class="p-3">
+                        <img class="rede-social" src="imagens projecyt/linkedin.png" alt="Logo do linkedin">
+                    </a>
+                    <a href="https://www.facebook.com/jessicadesignersobrancelha1" target="_blank" class="p-3">
+                        <img class="rede-social" src="imagens projecyt/facebook.png" alt="Logo do linkedin">
+                    </a>
+
+
+
+                </div>
 
             </div>
-            <p class="center">
-                Todos os direitos reservados: Studio sos &copy;
-            </p>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center text-light">
+                        Todos os direitos reservados: Studio sos &copy;
+                    </p>
+                </div>
+            </div>
+
+
         </footer>
+        <!--rodapé--> -->
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
